@@ -308,7 +308,7 @@
 <script setup lang="ts">
 import { onBeforeUnmount, onMounted, ref } from "vue"
 import { EditorContent, useEditor } from "@tiptap/vue-3"
-import type DataTable from "../../../models/table"
+import type DataTable from "../../../assets/js/models/table"
 import {
   IconArrowBackUp,
   IconArrowForwardUp,
