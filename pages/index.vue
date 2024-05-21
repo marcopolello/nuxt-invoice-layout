@@ -28,7 +28,7 @@ import {
           <NuxtLink to="/editor/2">Editor 2</NuxtLink>
         </fwb-navbar-link>
         <fwb-navbar-link link="#">
-          <NuxtLink to="/invoiceLayout/2">EDITOR LAYOUT FATTURE WIP</NuxtLink>
+          <NuxtLink to="/editor/EditorLayoutApp">EDITOR LAYOUT FATTURE WIP</NuxtLink>
         </fwb-navbar-link>
       </fwb-navbar-collapse>
     </template>
