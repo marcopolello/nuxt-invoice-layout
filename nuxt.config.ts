@@ -7,9 +7,6 @@ export default defineNuxtConfig({
   modules: [
     '@nuxtjs/tailwindcss'
   ],
-  build: {
-    transpile: ['@tiptap/vue-3', '@tiptap/core'],
-  },
   css: [
     '~/assets/css/index.css'
   ],
