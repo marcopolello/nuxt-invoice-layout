@@ -46,7 +46,7 @@ import { onMounted, ref } from "vue"
 import { useDropzone } from "vue3-dropzone"
 import Dialog from "./Dialog.vue"
 import axios from "axios"
-import type ImageData from "../models/image"
+import type ImageData from "../../../assets/js/models/image"
 
 defineProps<{
   show: boolean
@@ -77,26 +77,26 @@ function onDropImage(acceptedFiles: any[]) {
   const formData = new FormData()
   formData.append("file", acceptedFiles[0])
 
-  axios
-    .post(route('upload.image'), formData, {
-      headers: {
-        "Content-type": "multipart/form-data",
-      },
-    })
-    .then(() => {
-      loadData()
-    })
+  //axios
+  //  .post(route('upload.image'), formData, {
+  //    headers: {
+  //      "Content-type": "multipart/form-data",
+  //    },
+  //  })
+  //  .then(() => {
+  //    loadData()
+  //  })
 }
 
 function loadData() {
-  axios.get(route('load.image'))
-  .then(response => {
-    console.log(response);
-    imageListRef.value = response.data;
-  })
-  .catch(error => {
-    console.error(error);
-  });
+  //axios.get(route('load.image'))
+  //.then(response => {
+  //  console.log(response);
+  //  imageListRef.value = response.data;
+  //})
+  //.catch(error => {
+  //  console.error(error);
+  //});
 }
 
 function insertImage(url: string) {

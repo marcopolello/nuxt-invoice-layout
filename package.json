@@ -27,11 +27,13 @@
     "@tiptap/pm": "^2.4.0",
     "@tiptap/starter-kit": "^2.4.0",
     "@tiptap/vue-3": "^2.4.0",
+    "axios": "^1.7.1",
     "flowbite": "^2.3.0",
     "flowbite-vue": "^0.1.4",
     "nuxt": "^3.11.2",
     "vue": "^3.4.27",
-    "vue-router": "^4.3.2"
+    "vue-router": "^4.3.2",
+    "vue3-dropzone": "^2.2.1"
   },
   "devDependencies": {
     "@nuxtjs/tailwindcss": "^6.12.0",

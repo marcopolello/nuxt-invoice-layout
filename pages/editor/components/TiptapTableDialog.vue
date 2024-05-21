@@ -66,7 +66,7 @@
 <script setup lang="ts">
 import { ref } from "vue"
 import Dialog from "./Dialog.vue"
-import type Table from "@/models/table"
+import type Table from "../../../assets/js/models/table"
 import InputContainer from "./InputContainer.vue"
 import Label from "./Label.vue"
 import Input from "./Input.vue"
